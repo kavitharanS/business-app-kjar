@@ -8,7 +8,7 @@ rule "Offer for Diamond"
 		productObject: Product(type=="Diamond")
 	
 	then
-		productObject.setDiscount(46665);
+		productObject.setDiscount(45);
 		System.out.println("Product discount>>>>>>>>>>"+productObject.getDiscount());
 	end
 rule "Offer for Gold"
